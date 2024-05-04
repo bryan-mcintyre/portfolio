@@ -1,0 +1,56 @@
+:root {
+    --default-bg: #5c0587;
+    --default-font-fam: Helvetica, Arial, sans-serif;
+    --default-font-color: #fff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    background-color: var(--default-bg);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 2px solid #727073;
+    color: var(--default-font-color);
+    font-family: var(--default-font-fam);
+    align-items: center;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+nav a {
+    background-color: unset;
+    font-weight: bold;
+    text-decoration: none;
+    color: #e7e00e;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 922px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+}
