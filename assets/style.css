@@ -23,7 +23,7 @@ header {
 }
 
 h1 {
-    font-size: 200%;
+    font-size: 150%;
 }
 
 nav ul {
@@ -42,6 +42,53 @@ nav a {
 nav a:hover {
     color: #fff;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 2% auto;
+}
+
+section {
+    display: block;
+    text-align: center;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: 10px;
+    border: 1px solid #e7e00e;
+    font-family: var(--default-font-fam);
+    color: var(--default-font-color);
+    max-width: 75%;
+}
+
+div {
+    display: block;
+}
+
+section h2 {
+    border-bottom: 5px solid #727073;
+}
+
+footer {
+    display: inline-flex;
+    justify-content: center;
+    border-top: 5px solid #727073;
+    color: var(--default-font-color);
+    font-family: var(--default-font-fam);
+}
+
+
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 300px;
+    color: #e7e00e;
+}
+
+
 
 @media screen and (max-width: 922px) {
     header {
