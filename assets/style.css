@@ -49,6 +49,10 @@ main {
     margin: 2% auto;
 }
 
+h2 {
+   
+}
+
 section {
     display: block;
     text-align: center;
@@ -69,6 +73,11 @@ div {
 
 section h2 {
     border-bottom: 5px solid #727073;
+    color: #e7e00e;
+}
+
+section p {
+    font-size: 14px;
 }
 
 footer {
