@@ -36,21 +36,17 @@ nav a {
     background-color: unset;
     font-weight: bold;
     text-decoration: none;
-    color: #e7e00e;
+    color: #fffe;
 }
 
 nav a:hover {
-    color: #fff;
+    color: #e7e00e;
 }
 
 main {
     display: flex;
     flex-direction: column;
     margin: 2% auto;
-}
-
-h2 {
-   
 }
 
 section {
@@ -74,6 +70,12 @@ div {
 section h2 {
     border-bottom: 5px solid #727073;
     color: #e7e00e;
+    font-size: 125%;
+}
+
+section h3 {
+    border-bottom: 2.5px solid #727073;
+    border-top: 2.5px solid #727073;
 }
 
 section p {
