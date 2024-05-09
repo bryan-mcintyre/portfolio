@@ -1,19 +1,24 @@
+/* Default Variables */
 :root {
     --default-bg: #5c0587;
     --default-font-fam: Helvetica, Arial, sans-serif;
     --default-font-color: #fff;
 }
 
+/* Body styling */
 body {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
+    align-content: center;
     line-height: 1.5;
     background-color: var(--default-bg);
 }
 
+/* Header, Img, and Header Nav */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 10px;
     padding: 10px;
     border-bottom: 2px solid #727073;
@@ -26,9 +31,13 @@ h1 {
     font-size: 150%;
 }
 
+header img {
+    width: 100px;
+}
+
 nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     min-width: 300px;
 }
 
@@ -43,13 +52,15 @@ nav a:hover {
     color: #e7e00e;
 }
 
+/* Main */
 main {
     display: flex;
     flex-direction: column;
     margin: 2% auto;
 }
 
-section {
+/* About Me and Projects */
+ .Section{
     display: block;
     text-align: center;
     height: auto;
@@ -58,30 +69,40 @@ section {
     margin-bottom: auto;
     margin-top: 10px;
     border: 1px solid #e7e00e;
+    border-radius: 5px;
     font-family: var(--default-font-fam);
     color: var(--default-font-color);
     max-width: 75%;
 }
 
-div {
-    display: block;
-}
-
-section h2 {
+.Section h2 {
     border-bottom: 5px solid #727073;
     color: #e7e00e;
     font-size: 125%;
 }
 
-section h3 {
+.Section h3 {
+    color: #e7e00e;
     border-bottom: 2.5px solid #727073;
     border-top: 2.5px solid #727073;
 }
 
-section p {
+.Section p {
     font-size: 14px;
+    border-top: 2.5px solid #727073;
 }
 
+img {
+    margin-top: 5px;
+}
+
+#Disney {
+    height: 640px;
+    position: relative;
+    align-self: inherit;
+}
+
+/* Footer and Footer Nav */
 footer {
     display: inline-flex;
     justify-content: center;
@@ -90,7 +111,9 @@ footer {
     font-family: var(--default-font-fam);
 }
 
-
+footer h2 {
+    color: #e7e00e;
+}
 
 footer ul {
     display: flex;
@@ -100,15 +123,17 @@ footer ul {
 }
 
 
-
+/* Viewport Responsive Styling */
 @media screen and (max-width: 922px) {
     header {
         flex-direction: column;
+        max-width: fit-content;
     }
 }
 
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
+        max-width: fit-content;
     }
 }
