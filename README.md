@@ -13,6 +13,7 @@ N/A
 ![alt text](<assets/images/Screenshot 2024-05-08 193417.png>)
 
 Click on this link or copy/paste it into your browser to view the webpage:
+https://bryan-mcintyre.github.io/portfolio/
 
 ## Credits
 
